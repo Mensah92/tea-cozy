@@ -1,0 +1,192 @@
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+body {
+    font-family: Helvetica; 
+    font-size: 22px; 
+    color:seashell; 
+    background-color: black;
+    opacity: 0.9;
+}
+
+/* HEADER */
+
+header {
+    height: 69px; 
+    border-bottom: 1px solid seashell;
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+}
+.nav_links li {
+    display: inline-flex;
+    margin-right: 20px;
+}
+
+.nav_links a {
+    color: white; 
+}
+
+.logo {
+    height: 50px;
+    margin-left: 10px;
+}
+
+/* BANNER */ 
+
+.banner {
+    height: 700px;
+    display: flex; 
+    justify-content: center; 
+}
+.background_img {
+    height: 700px; 
+    max-width: 1200px;
+    background-image:url('/assets/images/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.banner_text {
+    background-color: black;
+    width: 1200px; 
+    display: flex;
+    align-content: center; 
+    flex-direction: column;
+    align-items: center;
+    padding: 2%;
+}
+
+.banner_text h2 {
+    margin-bottom: 2%;
+}
+
+/* TEA OF THE MONTH */
+
+section {
+    /* width: 1200px; */
+}
+.tea_month {
+    max-width: 1000px;
+    height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin: 0 auto; 
+    padding-top: 0; 
+}
+
+.tea img {
+    height: 200px; 
+    width: 300px;   
+    margin-bottom: 10px;  
+    
+}
+
+figure {
+    margin-right: 2%;
+}
+figcaption {
+    text-align: center;
+}
+
+
+.tea_heading {
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.tea_heading h2 {
+    margin-bottom: 2%; 
+}
+
+/* LOCATION */
+
+.location {
+    display: flex;
+    justify-content: center;  
+}
+
+.locations {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.location_back_img {  
+    height: 500px;
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: cneter;
+    background-image: url('assets/images/locations.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+}
+
+.location_back_img h2 {
+    margin-right: 3.8%;
+    margin-bottom: 15px;
+}
+
+.location h1 {
+    margin: 0 auto;
+}
+
+.city {
+    height: 300px;
+    padding: 2%;
+    background-color: black;
+    width: 300px;
+    margin-right: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;  
+    align-content: space-between;
+}
+
+.city h4, h3 {
+   
+}
+
+/* CONTACT */
+
+.contact {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+}
+.contact_info {
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contact_info h2 {
+    margin-top: 4%;
+}
+
+
+/* FOOTER */
+
+.copyright {
+    margin-top: 10%;
+    margin-left: 20px;
+}
